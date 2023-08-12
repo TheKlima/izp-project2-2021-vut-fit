@@ -27,16 +27,6 @@
 
 #define MAX_OPERANDS_NUMBER 4 // command can have maximum 4 operands (for example: "injective  id1 id2 id3 go_to_line)"
 
-// TODO maybe rewrite using qsort
-// TODO use it
-///**
-// * @brief Print bool value
-// * @param b bool to be printed
-// */
-//void print_bool(bool b) {
-//    printf(b ? "true\n" : "false\n");
-//}
-
 // commands over sets
 const char *set_commands[] = {
         "empty",
